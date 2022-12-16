@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./images/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- Font Awesome CDN JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="./index.html" class="logo">
+        <img src="./images/favicon/logo.svg" alt="Logo Icon" />
+        <h1>Cloth Shop</h1>
+      </a>
+
+      <nav class="nav">
+        <ul class="nav-items">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./products.html" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="./about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-link active">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="nav nav-2">
+        <ul class="nav-items">
+          <li class="nav-item">
+            <a href="#register" class="nav-link">Register</a>
+          </li>
+          <li class="nav-item">
+            <a href="#login" class="nav-link">Login</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content-container">
+      <!-- <div class="big-picture">
+        <img
+          class="object-fit"
+          src="./images/big-pictures/image-3.jpg"
+          alt="Big Picture"
+        />
+      </div> -->
+
+      <section class="section">
+        <div class="title-1">Contact</div>
+        <hr />
+        <br />
+
+        <div class="contact-form-container">
+          <form action="#" class="contact-form" method="POST">
+            <div class="field">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="John Doe"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="name">Mobile No.</label>
+              <input
+                type="text"
+                name="mob"
+                id="mob"
+                placeholder="+91 9876543210"
+              />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="johndoe@example.com"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="5"
+                placeholder="Type you message here..."
+                required
+              ></textarea>
+            </div>
+            <div class="options">
+              <button class="btn" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+
+        <br /><br />
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <nav class="nav">
+        <ul class="nav-items">
+          <li class="nav-item">
+            <div
+              class="display-text-4"
+              style="font-family: 'Sacramento', cursive"
+            >
+              Cloth Shop
+            </div>
+            <h6 style="color: #777">
+              Copyright &copy; 2022 Cloth Shop. All Rights Reserved.
+            </h6>
+          </li>
+          <li class="nav-item">
+            <div class="nav-items-title">Menu</div>
+            <ul class="nav-items">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./products.html" class="nav-link">Products</a>
+              </li>
+              <li class="nav-item">
+                <a href="./about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="./contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <ul class="nav-items">
+              <li class="nav-item">
+                <a
+                  href="https://goo.gl/maps/Hu12rgi3tnPXgvS17"
+                  class="nav-link"
+                >
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span
+                    >48, 161/204, A.B Road, Bholaram Ustad Marg, Indore</span
+                  >
+                </a>
+              </li>
+              <br />
+              <li class="nav-item">
+                <a href="#call-on" class="nav-link">
+                  <i class="fa-solid fa-phone"></i>
+                  <span>+91 98XXXXXX21</span>
+                </a>
+              </li>
+              <br />
+              <li class="nav-item">
+                <a href="#mailto" class="nav-link">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>clothshop@example.com</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <ul class="nav-items">
+              <li class="nav-item">About the Company</li>
+              <br />
+              <li class="nav-item">
+                <span style="color: #777"
+                  >We provide almost all variety of clothings for all
+                  sizes</span
+                >
+              </li>
+              <br />
+              <li class="nav-item">
+                <ul class="nav-items" style="flex-direction: row; gap: 1rem">
+                  <li class="nav-item">
+                    <a href="#facebook" class="nav-link"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#twitter" class="nav-link"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#linkedin" class="nav-link"
+                      ><i class="fa-brands fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#github" class="nav-link"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
